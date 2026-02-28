@@ -18,14 +18,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100dvh;
+    min-height: 100dvh;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 .main-container {
@@ -40,11 +42,11 @@ main {
 .image-mobile-styling {
     display: flex;
     flex-direction: column;
-    height: auto;
 }
 
 .image-mobile-styling img {
     border-radius: 15px 15px 0 0;
+    height: auto;
 }
 
 /* ======== text styling ======= */
