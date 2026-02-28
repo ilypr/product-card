@@ -24,7 +24,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 5px;
 }
@@ -51,6 +50,7 @@ main {
 /* ======== text styling ======= */
 .text-container {
     padding: 15px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -59,27 +59,27 @@ h1 {
     font-size: 1rem;
     letter-spacing: 0.4rem;
     color: var(--product-description);
-    margin-left: 10px;
 }
 
 h2 {
     font-family: "Fraunces", serif;
     font-size: 2.3rem;
-    margin-left: 10px;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: var(--product-description);
+    font-size: 1rem;
 }
 
 p.product-description {
-    line-height: 1.5rem;
-    margin-left: 10px;
+    line-height: 1.6rem;
 }
 
 .pricing {
+    margin-top: 20px;
+    margin-bottom: 5px;
     display: flex;
     vertical-align: middle;
 }
@@ -110,4 +110,5 @@ h3 {
     border-radius: 10px;
     width: 320px;
     padding: 20px 30px 20px 30px;
+    margin-bottom: 30px;
 }
