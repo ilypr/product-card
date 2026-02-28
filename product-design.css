@@ -48,8 +48,9 @@ main {
     border-radius: 15px 15px 0 0;
 }
 
+/* ======== text styling ======= */
 .text-container {
-    padding: 20px;
+    padding: 15px;
 }
 
 h1 {
@@ -78,13 +79,14 @@ p.product-description {
     margin-left: 10px;
 }
 
-p.old-price {
-    text-decoration: line-through;
-}
-
 .pricing {
     display: flex;
     vertical-align: middle;
+}
+
+p.old-price {
+    text-decoration: line-through;
+    font-size: 1rem;
 }
 
 h3 {
@@ -93,6 +95,19 @@ h3 {
     color: var(--discount);
 }
 
-.old-price {
-    font-size: 1rem;
+.cart-button-position {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-button-styling {
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--product-container);
+    background-color: var(--discount);
+    border-radius: 10px;
+    width: 320px;
+    padding: 20px 30px 20px 30px;
 }
