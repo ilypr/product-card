@@ -13,6 +13,7 @@
     --product-container: hsl(0, 0%, 100%);
 }
 
+/* ======== vertical_align ======== */
 body {
     background-color: var(--background);
     display: flex;
@@ -23,6 +24,7 @@ body {
     padding-bottom: 20px;
 }
 
+/* ======== vertical_align ======== */
 main {
     display: flex;
     flex-direction: column;
@@ -30,6 +32,7 @@ main {
     margin: 10px;
 }
 
+/* ======== perfume-container ======== */
 .main-container {
     display: flex;
     flex-direction: column;
@@ -38,7 +41,7 @@ main {
     max-width: 95%;
 }
 
-/* ======== image container ========*/
+/* ======== image-container ========*/
 .image-mobile-styling {
     display: flex;
     flex-direction: column;
@@ -49,25 +52,31 @@ main {
     height: auto;
 }
 
-/* ======== text styling ======= */
+/* ======== text-position ======= */
 .text-container {
     padding: 15px;
     margin-left: 10px;
 }
 
+/* ======== category ======= */
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 1rem;
-    letter-spacing: 0.4rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
     color: var(--product-description);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/* ======== product-name ======= */
 h2 {
     font-family: "Fraunces", serif;
     font-size: 2.3rem;
+    margin-bottom: 15px;
 }
 
+/* ======== product-info ======= */
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -78,7 +87,7 @@ p {
 p.product-description {
     line-height: 1.6rem;
 }
-
+/* ======== product-price ======= */
 .pricing {
     margin-top: 20px;
     margin-bottom: 5px;
@@ -97,6 +106,7 @@ h3 {
     color: var(--discount);
 }
 
+/* ======== add-to-cart-button ======= */
 .cart-button-position {
     text-align: center;
     display: flex;
@@ -113,4 +123,7 @@ h3 {
     width: 320px;
     padding: 20px 30px 20px 30px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
