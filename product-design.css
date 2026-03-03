@@ -130,9 +130,21 @@ h3 {
     gap: 10px;
 }
 
+/* ======== button interaction ======== */
+*:focus {
+  outline: none;
+}
+
+a:focus-visible {
+    border: 5px solid var(--button-color);
+}
+
+a:hover {
+    background-color: var(--button-color);
+}
+
 
 @media screen and (min-width: 1024px) {
-
 .main-container {
     display: flex;
     flex-direction: row;
