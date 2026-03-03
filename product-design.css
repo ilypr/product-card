@@ -52,7 +52,7 @@ main {
 
 /* ======== text-position ======= */
 .text-container {
-    padding: 20px;
+    padding: 25px;
 }
 
 /* ======== category ======= */
@@ -62,8 +62,7 @@ h1 {
     font-size: 0.8rem;
     letter-spacing: 0.3rem;
     color: var(--product-description);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* ======== product-name ======= */
