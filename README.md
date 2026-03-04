@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./pc-version.PNG" alt="Alt text" width="600"/>
-<img src="./mobile-version.PNG" alt="Alt text" width="200"/>
+<img src="pc-version.PNG" alt="Alt text" width="600"/>
+<img src="mobile-version.PNG" alt="Alt text" width="200"/>
 
 ### Links
 
